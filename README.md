@@ -11,15 +11,15 @@
   <img src="https://github.com/lowskydev/Fokuso/blob/main/src/assets/logo.png" alt="Fokuso Logo" width="120" height="120">
 </div>
 
-**🔗 [Frontend Repository](https://github.com/lowskydev/Fokuso)**
+**[Frontend Repository](https://github.com/lowskydev/Fokuso)**
 
-[✨ Features](#-features) • [🚀 Quick Start](#-quick-start) • [🛠️ Tech Stack](#%EF%B8%8F-tech-stack) • [📁 Project Structure](#-project-structure) • [🤝 Contributing](#-contributing)
+[Features](#-features) • [Quick Start](#-quick-start) • [Tech Stack](#%EF%B8%8F-tech-stack) • [Project Structure](#-project-structure) • [Contributing](#-contributing)
 
 </div>
 
 ---
 
-## 📖 About
+## About
 
 Fokuso API is the robust Django REST backend that powers the [Fokuso productivity platform](https://github.com/lowskydev/Fokuso). Built with modern development practices, it provides a comprehensive suite of APIs for focus management, spaced repetition learning, task organization, and productivity analytics.
 
@@ -27,15 +27,15 @@ The API implements Test Driven Development (TDD) principles and includes compreh
 
 ---
 
-## ✨ Features
+## Features
 
-### 🔐 **Authentication & User Management**
+### **Authentication & User Management**
 
 - **Token-based Authentication**: Secure user sessions with tokens
 - **User Registration & Login**: Complete auth flow
 - **Profile Management**: User data management
 
-### 🧠 **Spaced Repetition System**
+### **Spaced Repetition System**
 
 - **Flashcard Management**: CRUD operations for learning cards
 - **Deck Organization**: Subject-based card grouping
@@ -43,14 +43,14 @@ The API implements Test Driven Development (TDD) principles and includes compreh
 - **Review Statistics**: Comprehensive learning analytics
 - **Daily Progress Tracking**: Monitor learning consistency
 
-### 🍅 **Focus Session Management**
+### **Focus Session Management**
 
 - **Session Logging**: Track focus and break periods
 - **Duration Recording**: Precise time measurement
 - **Statistics Generation**: Productivity insights and trends
 - **Streak Calculation**: Consistency tracking
 
-### ✅ **Task Management**
+### **Task Management**
 
 - **Todo CRUD Operations**: Complete task management
 - **Priority Levels**: High, medium, low prioritization
@@ -58,7 +58,7 @@ The API implements Test Driven Development (TDD) principles and includes compreh
 - **Tag Management**: Flexible organization system
 - **Due Date Tracking**: Deadline management
 
-### 📅 **Calendar System**
+### **Calendar System**
 
 - **Event Management**: Create, update, delete events
 - **Event Types**: Focus, study, meeting, break, other
@@ -66,7 +66,7 @@ The API implements Test Driven Development (TDD) principles and includes compreh
 - **Date Filtering**: Efficient event querying
 - **Grouped Responses**: Events organized by date
 
-### 📊 **Analytics & Statistics**
+### **Analytics & Statistics**
 
 - **Daily Review Stats**: Flashcard performance tracking
 - **Focus Statistics**: Session analytics and trends
@@ -75,7 +75,7 @@ The API implements Test Driven Development (TDD) principles and includes compreh
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 
@@ -163,36 +163,36 @@ docker compose exec -T db psql -U devuser devdb < backup.sql
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 ### **Backend Framework**
 
-- **🐍 Django 3.2** - Robust web framework
-- **🔥 Django REST Framework 3.12** - Powerful API toolkit
-- **📚 drf-spectacular** - OpenAPI 3 schema generation
+- **Django 3.2** - Robust web framework
+- **Django REST Framework 3.12** - Powerful API toolkit
+- **drf-spectacular** - OpenAPI 3 schema generation
 
 ### **Database**
 
-- **🐘 PostgreSQL 13** - Advanced relational database
-- **🔧 psycopg2** - PostgreSQL adapter for Python
+- **PostgreSQL 13** - Advanced relational database
+- **psycopg2** - PostgreSQL adapter for Python
 
 ### **Development & Deployment**
 
-- **🐳 Docker & Docker Compose** - Containerization
-- **🔍 flake8** - Code linting and style checking
-- **🧪 Django Test Framework** - Comprehensive testing suite
+- **Docker & Docker Compose** - Containerization
+- **flake8** - Code linting and style checking
+- **Django Test Framework** - Comprehensive testing suite
 
 ### **API Features**
 
-- **🔐 Token Authentication** - Secure API access
-- **📖 Swagger UI Documentation** - Interactive API docs
-- **🌐 CORS Headers** - Cross-origin resource sharing
-- **📊 Pagination** - Efficient data loading
-- **🔍 Filtering & Search** - Advanced query capabilities
+- **Token Authentication** - Secure API access
+- **Swagger UI Documentation** - Interactive API docs
+- **CORS Headers** - Cross-origin resource sharing
+- **Pagination** - Efficient data loading
+- **Filtering & Search** - Advanced query capabilities
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 app/
@@ -248,7 +248,7 @@ app/
 
 ---
 
-## 🔧 API Endpoints
+## API Endpoints
 
 ### **Authentication**
 
@@ -311,7 +311,7 @@ GET    /api/stats/hourly-data/             # Hourly analytics
 
 ---
 
-## 🧪 Testing
+## Testing
 
 Fokuso API follows Test-Driven Development principles with comprehensive test coverage:
 
@@ -335,7 +335,7 @@ docker compose run --rm app sh -c "python manage.py test flashcards.tests.test_f
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 ### **How to Contribute**
 
@@ -358,7 +358,7 @@ docker compose run --rm app sh -c "python manage.py test flashcards.tests.test_f
 
 ---
 
-## 👥 Contributors
+## Contributors
 
 <table>
   <tr>
@@ -369,7 +369,7 @@ docker compose run --rm app sh -c "python manage.py test flashcards.tests.test_f
         <sub><b><a href="https://github.com/lowskydev">lowskydev</a></b></sub>
       </a>
       <br />
-      <sub>🚀 Project Leader & Full-Stack Developer</sub>
+      <sub> Project Leader & Full-Stack Developer</sub>
     </td>
     <td align="center">
       <a href="https://github.com/lyes0000">
@@ -378,20 +378,20 @@ docker compose run --rm app sh -c "python manage.py test flashcards.tests.test_f
         <sub><b><a href="https://github.com/lyes0000">lyes0000</a></b></sub>
       </a>
       <br />
-      <sub>⚡ Backend Developer</sub>
+      <sub> Backend Developer</sub>
     </td>
   </tr>
 </table>
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
 
 ---
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - **Django Software Foundation** for the excellent web framework
 - **Django REST Framework** for powerful API tools
