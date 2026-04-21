@@ -366,7 +366,7 @@ docker compose run --rm app sh -c "python manage.py test flashcards.tests.test_f
       <a href="https://github.com/whywiki">
         <img src="https://github.com/whywiki.png" width="100px;" alt="lowskydev"/>
         <br />
-        <sub><b><a href="https://github.com/lowskydev">lowskydev</a></b></sub>
+        <sub><b><a href="https://github.com/whywiki">whywiki</a></b></sub>
       </a>
       <br />
       <sub> Project Leader & Full-Stack Developer</sub>
