@@ -363,8 +363,8 @@ docker compose run --rm app sh -c "python manage.py test flashcards.tests.test_f
 <table>
   <tr>
     <td align="center">
-      <a href="https://github.com/lowskydev">
-        <img src="https://github.com/lowskydev.png" width="100px;" alt="lowskydev"/>
+      <a href="https://github.com/whywiki">
+        <img src="https://github.com/whywiki.png" width="100px;" alt="lowskydev"/>
         <br />
         <sub><b><a href="https://github.com/lowskydev">lowskydev</a></b></sub>
       </a>
