@@ -8,10 +8,10 @@
 [![Docker](https://img.shields.io/badge/Docker-latest-2496ED?style=for-the-badge&labelColor=black&logo=docker&logoColor=2496ED)](https://docker.com/)
 
 <div align="center">
-  <img src="https://github.com/lowskydev/Fokuso/blob/main/src/assets/logo.png" alt="Fokuso Logo" width="120" height="120">
+  <img src="https://github.com/whywiki/Fokuso/blob/main/src/assets/logo.png" alt="Fokuso Logo" width="120" height="120">
 </div>
 
-**[Frontend Repository](https://github.com/lowskydev/Fokuso)**
+**[Frontend Repository](https://github.com/whywiki/Fokuso)**
 
 [Features](#-features) • [Quick Start](#-quick-start) • [Tech Stack](#%EF%B8%8F-tech-stack) • [Project Structure](#-project-structure) • [Contributing](#-contributing)
 
@@ -21,7 +21,7 @@
 
 ## About
 
-Fokuso API is the robust Django REST backend that powers the [Fokuso productivity platform](https://github.com/lowskydev/Fokuso). Built with modern development practices, it provides a comprehensive suite of APIs for focus management, spaced repetition learning, task organization, and productivity analytics.
+Fokuso API is the robust Django REST backend that powers the [Fokuso productivity platform](https://github.com/whywiki/Fokuso). Built with modern development practices, it provides a comprehensive suite of APIs for focus management, spaced repetition learning, task organization, and productivity analytics.
 
 The API implements Test Driven Development (TDD) principles and includes comprehensive documentation via Swagger UI, making it easy for developers to integrate and extend the platform's capabilities.
 
@@ -89,7 +89,7 @@ Before you begin, ensure you have the following installed:
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/lowskydev/Fokuso-API.git
+   git clone https://github.com/whywiki/Fokuso-API.git
    cd Fokuso-API
    ```
 
@@ -106,7 +106,7 @@ Before you begin, ensure you have the following installed:
 
 4. **Setup the Fokuso Frontend**
 
-   Follow the instructions in the [Frontend Repository](https://github.com/lowskydev/Fokuso) to set up the frontend application.
+   Follow the instructions in the [Frontend Repository](https://github.com/whywiki/Fokuso) to set up the frontend application.
 
 ### Important Commands
 
@@ -364,7 +364,7 @@ docker compose run --rm app sh -c "python manage.py test flashcards.tests.test_f
   <tr>
     <td align="center">
       <a href="https://github.com/whywiki">
-        <img src="https://github.com/whywiki.png" width="100px;" alt="lowskydev"/>
+        <img src="https://github.com/whywiki.png" width="100px;" alt="whywiki"/>
         <br />
         <sub><b><a href="https://github.com/whywiki">whywiki</a></b></sub>
       </a>
